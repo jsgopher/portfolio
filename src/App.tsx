@@ -14,9 +14,9 @@ function App() {
       <main>
         <HeroSection />
         <hr className='w-11/12 h-px bg-gray-900 mx-auto rounded-lg border-none' />
-        <ProjectsSection />
-        <hr className='w-11/12 h-px bg-gray-900 mx-auto rounded-lg border-none' />
         <About />
+        <hr className='w-11/12 h-px bg-gray-900 mx-auto rounded-lg border-none' />
+        <ProjectsSection />
       </main>
       <footer className='px-14 py-10 bg-gray-100'>
         &copy; Copyright 2022
