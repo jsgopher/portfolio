@@ -5,22 +5,22 @@ const projects = [
   {
     name: 'Nextflix - Movie Search Platform (WIP)',
     thumb: '/nextflix.png',
-    link: 'nflix.vercel.app'
+    link: 'https://nflix.vercel.app'
   },
   {
     name: 'Easy Bank landing Page',
     thumb: '/landing-page.png',
-    link: 'beta-easy-bank.vercel.app'
+    link: 'https://beta-easy-bank.vercel.app'
   },
   {
     name: 'Pricing Page',
     thumb: '/pricing.png',
-    link: 'pricing-component-theta.vercel.app'
+    link: 'https://pricing-component-theta.vercel.app'
   },
   {
     name: 'Books Store',
     thumb: '/vbooks.png',
-    link: 'vbooks.vercel.app'
+    link: 'https://vbooks.vercel.app'
   },
   {
     name: 'Kovarshini Products',
