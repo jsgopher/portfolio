@@ -1,5 +1,3 @@
-import React from 'react'
-
 const ProjectCard = ({ name, link, thumb }: any) => {
   return (
     <div className='w-full md:w-1/3 m-4 md:m-9 h-auto shadow-lg'>

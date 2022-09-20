@@ -1,4 +1,3 @@
-import React from 'react'
 import ProjectCard from './ProjectCard'
 
 const projects = [
@@ -34,7 +33,7 @@ const ProjectsSection = () => {
       <div className='title text-gray-800 text-4xl font-medium'>{"<projects>"}</div>
       <section className='flex flex-wrap mt-8 items-stretch justify-center'>
         {
-          projects.map(project => <ProjectCard {...project} />)
+          projects.map(project => <ProjectCard key={project.name} {...project} />)
         }
       </section>
     </div>

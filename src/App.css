@@ -8,4 +8,15 @@ body {
 
 .hero {
   height: calc(100vh - 72px);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.3)), url('/developer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  @media (min-width: 1024px) {
+    .hero {
+      background-size: contain;
+      background-position: right;
+    }
 }

@@ -8,18 +8,18 @@ function App() {
 
   return (
     <div className='bg-black w-full min-h-screen'>
-      <header>
+      <header className='shadow-lg w-full bg-black'>
         <Navbar />
       </header>
       <main>
         <HeroSection />
-        <hr className='w-11/12 h-px bg-gray-900 mx-auto rounded-lg border-none' />
+        <hr className='w-11/12 h-px bg-gray-900 mx-auto my-10 rounded-lg border-none' />
         <About />
-        <hr className='w-11/12 h-px bg-gray-900 mx-auto rounded-lg border-none' />
+        <hr className='w-11/12 h-px bg-gray-900 mx-auto my-10 rounded-lg border-none' />
         <ProjectsSection />
       </main>
-      <footer className='px-14 py-10 bg-gray-100'>
-        &copy; Copyright 2022
+      <footer className='px-14 py-6 text-center bg-gray-900 text-sm text-gray-300'>
+        &copy; Copyright 2022, Vignesh
       </footer>
     </div>
   )
